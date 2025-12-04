@@ -28,10 +28,9 @@ The project is organized into the following main directories and files:
 
 | File Name | Description | Status |
 | :--- | :--- | :--- |
-| `01_pre_analysis.py` | Script for initial data cleaning, normalization, and preparation (e.g., Differential Gene Expression calculation). | In Progress |
-| `02_ora_analysis.R` | Script implementing the **Over-representation Analysis** based on the list of differentially expressed genes. | To be Developed |
-| `03_fcs_analysis.R` | Script implementing **Functional Class Scoring** (e.g., GSEA) to assess pathway enrichment using ranked gene lists. | To be Developed |
-| `04_topology_analysis.R` | Placeholder for the pathway topology analysis method (e.g., R-based tools like *pathview* or *graphite*). | To be Developed |
+| `system_biology_preanalysis_lung_data.py` | Script for initial data cleaning, normalization, and preparation (e.g., Differential Gene Expression calculation).
+| `ora_analysis.py` | Script implementing the **Over-representation Analysis** based on the list of differentially expressed genes. | To be Developed |
+| `fcs_analysis.py` | Script implementing **Functional Class Scoring** (e.g., GSEA) to assess pathway enrichment using ranked gene lists. | To be Developed |
 
 ---
 
@@ -44,12 +43,12 @@ The project is organized into the following main directories and files:
 2.  **Place Data:** Ensure your dataset (expression matrix, etc.) is placed in the `data/` directory.
 3.  **Run Pre-Analysis:** Execute the data preparation script.
     ```bash
-    python 01_pre_analysis.py
+    python system_biology_preanalysis_lung_data.py
     ```
 4.  **Run Pathway Analyses:** Execute the subsequent analysis scripts.
     ```bash
-    Rscript 02_ora_analysis.R
-    Rscript 03_fcs_analysis.R
+    python ora_analysis.py
+    python fcs_analysis.py
     # ... and so on
     ```
 
