@@ -39,7 +39,7 @@ The project is organized into the following main directories and files:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [REPO_URL]
+    git clone https://github.com/riccardocaccia/system_biology_projec
     ```
 2.  **Place Data:** Ensure your dataset (expression matrix, etc.) is placed in the `data/` directory.
 3.  **Run Pre-Analysis:** Execute the data preparation script.
