@@ -19,15 +19,13 @@ The primary objective is to take a given gene expression **dataset** (featuring 
 
 The project is organized into the following main directories and files:
 
-...
-
 ###  Analysis Scripts
 
 | File Name | Description | Status |
 | :--- | :--- | :--- |
 | `system_biology_preanalysis_lung_data.py` | Script for initial data cleaning, normalization, and preparation (e.g., Differential Gene Expression calculation).
-| `ora_analysis.py` | Script implementing the **Over-representation Analysis** based on the list of differentially expressed genes. | To be Developed |
-| `fcs_analysis.py` | Script implementing **Functional Class Scoring** (e.g., GSEA) to assess pathway enrichment using ranked gene lists. | To be Developed |
+| `ora_analysis.py` | Script implementing the **Over-representation Analysis** based on the list of differentially expressed genes.
+| `fcs_analysis` | Performed with some online tools.
 
 ---
 
@@ -45,8 +43,6 @@ The project is organized into the following main directories and files:
 4.  **Run Pathway Analyses:** Execute the subsequent analysis scripts.
     ```bash
     python ora_analysis.py
-    python fcs_analysis.py
-    # ... and so on
     ```
 
 ---
