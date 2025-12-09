@@ -42,6 +42,7 @@ The project is organized into the following main directories and files:
     ```
 4.  **Run Pathway Analyses:** Execute the subsequent analysis scripts.
     ```bash
+    exploration_plots.py
     python ora_analysis.py
     ```
 
