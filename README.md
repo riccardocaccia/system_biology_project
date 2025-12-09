@@ -23,9 +23,9 @@ The project is organized into the following main directories and files:
 
 | File Name | Description | Status |
 | :--- | :--- | :--- |
-| `system_biology_preanalysis_lung_data.py` | Script for initial data cleaning, normalization, and preparation (e.g., Differential Gene Expression calculation).
-| `ora_analysis.py` | Script implementing the **Over-representation Analysis** based on the list of differentially expressed genes.
-| `fcs_analysis` | Performed with some online tools.
+| `system_biology_preanalysis_lung_data.py` | Script for initial data cleaning, normalization, and preparation (e.g., Differential Gene Expression calculation). | Done |
+| `ora_analysis.py` | Script implementing the **Over-representation Analysis** based on the list of differentially expressed genes. | Done |
+| `fcs_analysis` | Performed with some online tools. | Done |
 
 ---
 
