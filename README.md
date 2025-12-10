@@ -33,7 +33,7 @@ The project is organized into the following main directories and files:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/riccardocaccia/system_biology_projec
+    git clone https://github.com/riccardocaccia/system_biology_project
     ```
 2.  **Place Data:** Ensure your dataset (expression matrix, etc.) is placed in the `data/` directory.
 3.  **Clean the dataset:** Assure that yoyr dataset and data are ready to be analized -> on Rstudio:
