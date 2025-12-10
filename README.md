@@ -25,7 +25,7 @@ The project is organized into the following main directories and files:
 | :--- | :--- | :--- |
 | `system_biology_preanalysis_lung_data.py` | Script for initial data cleaning, normalization, and preparation (e.g., Differential Gene Expression calculation). | Done |
 | `ora_analysis.py` | Script implementing the **Over-representation Analysis** based on the list of differentially expressed genes. | Done |
-| `fcs_analysis` | Performed with some online tools. | Done |
+| `deg_r_script.r` | Cleaning of the dataset to be performed before starting the analysis | Done |
 
 ---
 
@@ -36,11 +36,15 @@ The project is organized into the following main directories and files:
     git clone https://github.com/riccardocaccia/system_biology_projec
     ```
 2.  **Place Data:** Ensure your dataset (expression matrix, etc.) is placed in the `data/` directory.
-3.  **Run Pre-Analysis:** Execute the data preparation script.
+3.  **Clean the dataset:** Assure that yoyr dataset and data are ready to be analized -> on Rstudio:
     ```bash
-    python system_biology_preanalysis_lung_data.py
+    deg_r_script.r
     ```
-4.  **Run Pathway Analyses:** Execute the subsequent analysis scripts.
+5.  **Run Pre-Analysis:** Execute the data preparation script.
+    ```bash
+    python system_biology_preanalysis_lung_data.py  
+    ```
+6.  **Run Pathway Analyses:** Execute the subsequent analysis scripts.
     ```bash
     exploration_plots.py
     python ora_analysis.py
